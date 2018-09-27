@@ -1,0 +1,451 @@
+body
+{
+	background-color: black;
+	font-family: 'Lato', sans-serif;
+	font-size: 22px;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #EDC40E;
+}
+#logo
+{
+	color: white;
+	text-align: center;
+
+}
+
+#logo_tytul
+{
+	border-left: 1px dashed white;
+	border-right: 1px dashed white;
+	margin-top:10px;
+	margin-bottom: 5px;
+	background-color: black;
+	font-size: 28px;
+}
+
+#logo_tytul2
+{
+	font-size: 40px;
+	margin-top:10px;
+	margin-bottom: 5px;
+	background-color: black;
+	text-shadow: 4px 0px 4px #2253F5;
+}
+
+#menu
+{
+	padding: 10px;	
+	min-height: 300px;
+}
+
+#menu_inf
+{
+	padding: 30px;
+	font-size: 20px;
+	min-height: 300px;
+}
+
+#login
+{
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 200px;
+	min-height: 170px;
+	background-color: #D5B00C;
+	padding: 10px;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 1px dotted #9F8820;
+}
+
+#input1
+{
+	height: 30px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+#input2
+{
+	text-align: center;
+	padding: 5px;
+}
+
+#submit
+{
+	text-align: center;
+	padding: 5px;
+}
+
+#rejestracja
+{
+	padding-top:10px;
+	padding-left: 30px;
+	font-size: 14px;
+}
+
+#powrot
+{
+	width: 960px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-left:20px;
+}
+
+rejestracja:link
+{
+	text-shadow: 2px 2px 8px white;
+}
+
+#menu_rej
+{
+	margin-left:5px;
+	font-size: 18px;
+	padding: 30px;
+	padding-left:70px;
+	color: #EDC40E;
+	background-color: black;
+	width: 300px;
+	float: left;
+}
+
+#menu_rej2
+{
+	margin-left: 5px;
+	float: left;
+	border: 1px dotted white;
+	width: 585px;
+	background-color: black;
+}
+.animate-fading
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+
+.link_str_glowna:link
+{	
+	text-decoration: none;
+	color: black;
+}
+
+.link_str_glowna:visited
+{
+	text-decoration: none;
+	color: black;
+}
+
+.link_str_glowna:hover
+{
+	color: white;
+	font-size: 25px;
+}
+
+.link_cofnij:link
+{	
+	text-decoration: underline;
+	color: black;
+	text-shadow:  -2px 2px 8px green;
+}
+
+.link_cofnij:visited
+{
+	text-decoration: none;
+	color: black;
+}
+
+.link_cofnij:hover
+{
+	text-shadow:  2px 2px 2px black;
+	color: white;
+}
+
+#stopka
+{
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	letter-spacing: 2px;
+	padding: 5px;
+	text-align: center;
+	border: 2px dashed #EDC40E;
+}
+
+.error
+{
+	color: #e51010;
+	font-size: 13px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+.rejestracja_powrot:link
+{
+	color: green;
+}
+.rejestracja_powrot:visited
+{
+	text-decoration: none;
+	color: green;
+}
+.rejestracja_powrot:hover
+{
+	color: white;
+}
+
+.form_rej
+{
+	width: 270px;
+	border-bottom: 1px dashed yellow;
+	font-weight: 700;
+	font-size: 21px;
+	text-shadow:  1px 1px 1px white;
+	letter-spacing: 2px;
+}
+
+.pola_wym
+{
+		margin-top: 5px;
+		font-size: 13px;
+		color: red;
+}
+
+.form_rej2
+{
+	width: 270px;
+	border-bottom: 1px dashed black;
+	font-weight: 700;
+	font-size: 23px;
+	text-shadow:  1px 1px 1px white;
+	letter-spacing: 1px;
+}
+
+/* Regulamin.php */
+#h1
+{
+	text-align: center;
+}
+
+#regulamin
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	text-align: justify;
+}
+
+
+#menu2
+{
+	padding: 5px;
+	padding: 20px;
+	width: 240px;
+	min-height: 250px;
+	background-color: #D5B00C;
+	border: 3px dashed black;
+	float: left;
+}
+
+.podpunkt_menu
+{
+	height: 30px;
+	padding: 5px;
+	border-top: 1px dashed black;
+	
+}
+
+.podpunkt_menu:hover
+{
+	color: white;
+	background-color: black;
+}
+
+#menu2_title
+{
+	padding-bottom: 10px;
+}
+
+#menu2_obraz
+{
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	
+}
+
+#menu2_obraz2
+{
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	
+}
+
+#obraz
+{
+	max-height:300px;
+	
+}
+
+td
+{
+	font-size: 16px;
+	padding: 10px;
+}
+
+th
+{
+	font-size: 17px;
+	cellpadding: 5px;
+}
+
+
+/* Stylizacja przycisków */
+.przycisk{
+	border : solid 0px #262211;
+	border-radius : 20px 9px 20px 9px ;
+	moz-border-radius : 20px 9px 20px 9px ;
+	-webkit-box-shadow : inset 0px 0px 5px rgba(0,0,0,1.0);
+	-moz-box-shadow : inset 0px 0px 5px rgba(0,0,0,1.0);
+	box-shadow : inset 0px 0px 5px rgba(0,0,0,1.0);
+	font-size : 20px;
+	color : #000000;
+	padding : 2px 16px;
+	background-color : #ba7600;
+	margin-right: 20px;
+	width: 100px;
+}
+
+.przycisk:hover {
+	background: black;
+	color: white;
+	-webkit-box-shadow : inset 0px 0px 5px white;
+	-moz-box-shadow : inset 0px 0px 5px white;
+	box-shadow : inset 0px 0px 5px white;
+	text-decoration: none;
+}
+
+#opcje_admin
+{
+	margin-left: 30px;
+	font-size: 20px;
+	padding:10px;
+	line-height: 40px;
+	border: 2px dashed black;
+	width: 400px;
+	background-color: #D5B00C;
+	margin-bottom: 50px;
+}
+
+#opcje_admin2
+{
+	
+	font-size: 11px;
+	padding:10px;
+	line-height: 20px;
+}
+
+.logout
+{
+	border: 2px outset black;
+	border-radius: 10px;
+	padding: 5px;
+	letter-spacing: 2px;
+	background-color: #D5B00C;
+}
+
+.logout:link
+{
+	color: black;
+	text-decoration: none;
+}
+
+.logout:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+.logout:hover
+{
+	color: white;
+	background-color: black;
+	
+}
+
+#link:visited
+{
+	text-decoration: none;
+}
+
+#link:link
+{
+	text-decoration: none;
+}
+
+.ps_input
+{
+	background-color: #D5B00C;
+	color: black;
+	height: 25px;
+	min-width: 130px;
+	font-size: 16px;
+}
+
+.ps_input:focus
+{
+	color: black;
+	background-color: white;
+}
+
+#up_admin
+{
+	width: 400px;
+	padding: 10px;
+	margin-left: 30px;
+}
+
+#link_rejestracja:link
+{
+	color: black;
+	text-decoration: none;
+	text-shadow: 1px 1px 6px white;
+}
+
+#link_rejestracja:visited
+{
+	color: black;
+	text-decoration: none;
+}
+
+#link_rejestracja:hover
+{
+	color: black;
+	font-weight: 700;
+	text-decoration: underline;
+	
+}
+
+#mapa
+{
+	padding: 30px;
+	text-align: center;
+}
